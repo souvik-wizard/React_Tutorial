@@ -44,11 +44,11 @@ function ExpenseForm(props) {
             <div className="new-expense__controls">
                 <div className="new-expense__control">
                     <label>Title</label>
-                    <input type="text" required value={enteredTitle} onChange={titleChangeHandler} />
+                    <input type="text" required placeholder='Enter Title' value={enteredTitle} onChange={titleChangeHandler} />
                 </div>
                 <div className="new-expense__control">
                     <label>Amount</label>
-                    <input type="number" required value={enteredAmount} onChange={amountChangeHandler} min="1" />
+                    <input type="number" required placeholder='Enter Amount' value={enteredAmount} onChange={amountChangeHandler} min="1" />
                 </div>
                 <div className="new-expense__control">
                     <label>Date</label>
