@@ -64,7 +64,7 @@ import classes from './AddUser.module.css';
 // };
 
 
-// Using Refs(in direct form tag) / Can be use directly in input tags----------------------------------
+// Using Refs(directly inside form tag) / Can be use directly inside input tags----------------------------------
 
 const AddUser = (props) => {
   const inputRef = useRef();
